@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#video-player {
+    margin-bottom: 20px;
+}
+
+#video-list {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#videos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#videos li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: blue;
+}
+
+#videos li:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Site de Streaming</h1>
+    </header>
+    <main>
+        <div id="video-player">
+            <video id="player" controls>
+                <source id="video-source" src="" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+        <div id="video-list">
+            <h2>Vidéos</h2>
+            <ul id="videos">
+                <!-- Les vidéos seront ajoutées ici par TypeScript -->
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
